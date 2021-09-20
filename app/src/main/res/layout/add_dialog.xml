@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/border"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Note"
+        android:textSize="35sp"
+        android:textColor="@color/black"
+        android:background="#EFE58E"
+        />
+
+    <EditText
+        android:id="@+id/edt_addnote"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:padding="10sp" />
+    <CheckBox
+        android:id="@+id/quantrong1"
+        android:layout_margin="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="impotant"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+
+        >
+
+        <Button
+            android:id="@+id/op_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:textColor="@color/black"
+            app:backgroundTint="#C5C3C3" />
+
+        <Button
+            android:id="@+id/commitop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Commit"
+            android:textColor="@color/black"
+            app:backgroundTint="#C5C3C3" />
+    </LinearLayout>
+
+</LinearLayout>

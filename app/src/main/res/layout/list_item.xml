@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/border"
+    >
+
+    <TextView
+        android:id="@+id/quantrong"
+        android:layout_width="15sp"
+        android:layout_height="match_parent"
+        android:background="#2FCA35"
+        />
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15sp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/nd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="aaaa"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/day"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="10/10/2021 14:56:00"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
